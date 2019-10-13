@@ -5,9 +5,9 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "package-win": "electron-packager ./ appbase --platform=win32 --app-version=1.0.0 --overwrite --arch=x64 --icon=./assets/app.ico --out=dist --asar",
-    "package-mac": "electron-packager ./ appbase --platform=darwin --app-version=1.0.0 --overwrite --arch=x64 --icon=./assets/app.ico --out=dist --asar",
-    "package-linux": "electron-packager ./ appbase --platform=linux --app-version=1.0.0 --overwrite --arch=x64 --icon=./assets/app.ico --out=dist --asar",
+    "package-win": "electron-packager ./ appbase --platform=win32 --app-version=1.0.0 --overwrite --arch=x64 --icon=./assets/app.ico --out=./dist --asar",
+    "package-mac": "electron-packager ./ appbase --platform=darwin --app-version=1.0.0 --overwrite --arch=x64 --icon=./assets/app.ico --out=./dist --asar",
+    "package-linux": "electron-packager ./ appbase --platform=linux --app-version=1.0.0 --overwrite --arch=x64 --icon=./assets/app.ico --out=./dist --asar",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jackjcd",
