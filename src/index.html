@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='UTF-8'>
+    <meta charset="UTF-8">
     <title>APPBASE</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        position: absolute;
+        margin: 0;
+      }
+      #canvas {
+        background: #ffffff;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <br/>Node <script>document.write(process.versions.node)</script>,
-    <br/>Chrome <script>document.write(process.versions.chrome)</script>,
-    <br/>Electron <script>document.write(process.versions.electron)</script>.
+    <canvas id="canvas">
+      Canvas not supported
+    </canvas>
+
+    <script src="app.js"></script>
   </body>
 </html>

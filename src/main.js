@@ -1,3 +1,4 @@
+const path = require('path')
 const { app, BrowserWindow } = require('electron')
 
 let win;
@@ -13,7 +14,7 @@ function createWindow() {
   })
 
   // 加载主页面
-  win.loadFile('index.html')
+  win.loadFile(path.join(__dirname, 'index.html'))
 
   // 窗口关闭
   win.on('closed', ()=>{
