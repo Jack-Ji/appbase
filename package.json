@@ -13,8 +13,8 @@
   "author": "jackjcd",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^6.0.12",
-    "electron-packager": "^14.0.6"
+    "electron": "^8.2.5",
+    "electron-packager": "^14.2.1"
   },
   "dependencies": {}
 }
